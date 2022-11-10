@@ -1,0 +1,8 @@
+algo = input('digite algo: ')
+print('o tipo de valor é', type(algo))
+print('só tem espaços? ',algo.isspace())
+print('é alfabetico? ',algo.isalpha())
+print('é um numero ',algo.isalnum())
+print('está em maiusculo? ',algo.isupper())
+print('está em minusculo? ',algo.islower())
+print('elá capitalizado? ',algo.istitle())
